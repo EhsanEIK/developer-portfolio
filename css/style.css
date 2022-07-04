@@ -7,17 +7,23 @@ h1 {
     font-size: 55px;
 }
 
+p {
+    text-align: justify;
+}
+
 .orange-color {
     color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 7%;
 }
 
 .half-width {
-    width: 50%;
+    width: 40%;
     padding-left: 7%;
+    padding-right: 3%;
 }
 
 .half-width img {
@@ -43,3 +49,9 @@ section {
 
 
 /* Top Banner End */
+
+.middle-banner {
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
